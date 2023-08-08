@@ -1,0 +1,55 @@
+body{
+    background-color: #1C1C1C;
+    color: white;
+    margin: 50;
+    /* border: 1px solid; */
+    /* width: 500; */
+    border: cover;
+}
+.main{
+    background-color: #1F2937;
+    padding: 60 50;
+    width: 400;
+    height:250px;
+    /* border: 1px solid; */
+    border-radius: 10px;
+
+}
+h1{
+    margin :0 ;    
+}
+.gray{
+    margin-bottom: 40;
+    color: 6B7280;
+    margin-top: 7;
+}
+.Generate{
+    background-color: #10B981;
+    border:none;
+    padding: 9 15;
+    border-radius: 6px;
+    margin-bottom: 15;
+}
+#pass1{
+    margin-top: 19;
+    padding: 12px 30px;
+    border-radius: 6px;
+    border:none;
+    background-color: #273549;
+    display: inline-block;
+    justify-content: center;
+
+}
+#pass2{
+    margin-top: 19;
+    padding: 12px 30px;
+    margin-left: 50px ;
+    border-radius: 6px;
+    border:none;
+    background-color: #273549;
+    display: inline-block;
+    justify-content: center;
+}
+.rp{
+    color: 4ADF86;
+}
