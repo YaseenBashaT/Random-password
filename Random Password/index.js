@@ -12,18 +12,19 @@ function passGen(){
     passGen1()
     passGen2()
     function passGen1(){
-        
         firstPass = document.getElementById("pass1")
-            for(let i=0; i<13; i++){
+        firstPass.textContent=""
+        for(let i=1; i<13; i++){
+            
                 firstPass.textContent += randomChar() 
 
             }
     }
 
     function passGen2(){
-        
         secondPass =document.getElementById("pass2")
-            for(let i=0; i<13; i++){
+        secondPass.textContent =""
+            for(let i=1; i<13; i++){
                 secondPass.textContent += randomChar() 
             }
     }
